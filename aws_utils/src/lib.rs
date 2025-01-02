@@ -1,3 +1,5 @@
+#![doc = include_str!("../README.md")]
+
 mod error;
 
 use aws_config::{
@@ -9,7 +11,7 @@ use log::{error, info};
 
 const DEFAULT_REGION: &str = "us-west-2";
 
-/// Initializes the AWS client.
+/// Initializes an AWS client.
 ///
 /// Uses a given AWS profile set up in host system config file, falling back to the default profile if None provided.
 ///
