@@ -1,0 +1,3 @@
+[env]
+# Capture log messages of the set severity level and higher
+RUST_LOG = "info"
